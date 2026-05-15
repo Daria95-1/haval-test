@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>haval</title>
+
+    <script src="//timer.sinoby.ru/public/assets/embed/timer-core.min.js?v=20260514a"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./src/styles/normalize.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <header class="header">
+      <div class="header__container container">
+        <button class="header__burger" aria-label="Меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="header__logo">
+          <img src="/src/assets/logo.svg" alt="Haval" />
+
+          <div class="devider-small"></div>
+
+          <img src="/src/assets/logo_2.svg" alt="Haval" />
+        </div>
+
+        <div class="header__info">
+          <div class="header__phone">
+            <img
+              src="/src/assets/icons/tel.svg"
+              alt=""
+              width="21"
+              height="24"
+              loading="lazy"
+            />
+            <p>+7 (495) 755 99 90</p>
+          </div>
+
+          <div class="header__address">
+            <img
+              src="/src/assets/icons/pin.svg"
+              alt=""
+              width="17"
+              height="28"
+              loading="lazy"
+            />
+
+            <div class="header__address__content">
+              МО, г. Химки, Ленинградское ш., вл.14 стр.1<br />
+              Часы работы с 09:00 до 21:00
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="devider"></div>
+
+      <nav class="header__nav container">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="">M6</a></li>
+          <li class="nav__item"><a href="">Dargo X</a></li>
+          <li class="nav__item"><a href="">Jolion</a></li>
+          <li class="nav__item"><a href="">F7x</a></li>
+          <li class="nav__item"><a href="">F7</a></li>
+          <li class="nav__item"><a href="">H9</a></li>
+          <li class="nav__item"><a href="">GWM Poer</a></li>
+          <li class="nav__item"><a href="">GWM Poer KINGKONG</a></li>
+        </ul>
+
+        <ul class="nav__list upper-case">
+          <li class="nav__item"><a href="">Подобрать комплектацию</a></li>
+          <li class="nav__item"><a href="">Тест-драйв</a></li>
+          <li class="nav__item"><a href="">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="text-wrapper">
+          <div class="hero__title">
+            <h1>Увеличиваем выгоды на HAVAL</h1>
+            <h2 class="hero__highlight">в Химках к Чёрной пятнице!</h2>
+          </div>
+        </div>
+
+        <button
+          class="hero__button"
+          type="button"
+          data-fancybox
+          data-src="#popup-form"
+        >
+          Зафиксировать условия
+        </button>
+      </div>
+
+      <img
+        src="/src/assets/hero.png"
+        alt=""
+        width="1920"
+        height="756"
+        loading="lazy"
+      />
+    </section>
+
+    <section class="timer">
+      <div class="timer__container container">
+        <div class="timer__content">
+          <h3>Оставьте заявку и зафиксируйте условия</h3>
+
+          <div
+            class="sinoby-timer"
+            data-sinoby-reserve="sinoby-vl5x0q"
+            data-config='{
+              "type": "fixed-end",
+              "preset": "rings-soft",
+              "schedule": {
+                "endAt": "2026-06-01T00:00:00"
+              },
+              "visibility": {
+                "separator": true
+              },
+              "style": {
+                "digitsFont": "Open Sans, sans-serif",
+                "digitGap": 8,
+                "digitColor": "#000000",
+                "labelSize": 18,
+                "labelGap": 0,
+                "labelColor": "#b9b9b9",
+                "cardBackgroundColor": "#f3f3f3",
+                "ringCurrentColor": "#00cabf",
+                "ringRemainingColor": "#d6d6d6"
+              }
+            }'
+            data-lazy="true"
+          ></div>
+        </div>
+
+        <button
+          class="button-primary"
+          type="button"
+          data-fancybox
+          data-src="#popup-form"
+        >
+          Зафиксировать условия
+        </button>
+      </div>
+    </section>
+
+    <section class="cars">
+      <div class="cars__container container">
+        <!-- Карточка 1 -->
+        <article class="car-card">
+          <div class="car-card__availability">
+            <p class="text-primary">В наличии</p>
+            <p class="text-secondary">21 автомобиль</p>
+          </div>
+
+          <div class="car-card__image-wrapper">
+            <div class="car-card__content">
+              <div class="car-card__content__wrapper">
+                <h2 class="car-card__title">Haval M6</h2>
+
+                <div
+                  class="car-card__test-drive-wrap"
+                  data-fancybox
+                  data-src="#popup-form"
+                >
+                  <button
+                    class="car-card__test-drive"
+                    type="button"
+                    aria-label="Записаться на тест-драйв"
+                  >
+                    <img src="/src/assets/icons/edit.svg" alt="" />
+                  </button>
+                  <span
+                    >Записаться <br />
+                    на тест-драйв</span
+                  >
+                </div>
+              </div>
+
+              <p class="car-card__benefit">
+                Выгода до <span class="car-card__price">410 000 ₽</span>
+              </p>
+            </div>
+
+            <div
+              class="car-card__image-swiper swiper"
+              data-bullets="grey,black,white,red"
+            >
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="/src/assets/image/m6_grey.png"
+                    alt="Haval M6 серый"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/src/assets/image/m6_black.png"
+                    alt="Haval M6 черный"
+                  />
+                </div>
+
+                <div class="swiper-slide">
+                  <img
+                    src="/src/assets/image/m6_white.png"
+                    alt="Haval M6 белый"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="car-card__pagination swiper-pagination"></div>
+
+          <div class="car-card__features">
+            <div class="column">
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/sale.svg"
+                    alt=""
+                    width="18"
+                    height="18"
+                    loading="lazy"
+                  />
+                </div>
+                <p>Выгода по госпрограмме</p>
+              </div>
+
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/check.svg"
+                    alt=""
+                    width="13"
+                    height="15"
+                    loading="lazy"
+                  />
+                </div>
+                <p>КАСКО в подарок</p>
+              </div>
+
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/gift.svg"
+                    alt=""
+                    width="14"
+                    height="14"
+                    loading="lazy"
+                  />
+                </div>
+                <p>Доп. оборудование на 100 000₽</p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/money.svg"
+                    alt=""
+                    width="15"
+                    height="13"
+                    loading="lazy"
+                  />
+                </div>
+                <p>Максимальные выгоды по трейд-ин</p>
+              </div>
+
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/tires.svg"
+                    alt=""
+                    width="18"
+                    height="18"
+                    loading="lazy"
+                  />
+                </div>
+                <p>Зимние шины в подарок</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="car-card__buttons">
+            <button
+              class="btn btn-price"
+              type="button"
+              data-fancybox
+              data-src="#popup-form"
+            >
+              узнать стоимость
+            </button>
+
+            <button
+              class="btn btn-credit"
+              type="button"
+              data-fancybox
+              data-src="#popup-form"
+            >
+              рассчитать кредит
+            </button>
+
+            <button
+              class="btn btn-config"
+              type="button"
+              data-fancybox
+              data-src="#popup-form"
+            >
+              подобрать комплектацию
+            </button>
+          </div>
+        </article>
+
+        <!-- Карточка 2 -->
+        <article class="car-card">
+          <div class="car-card__availability">
+            <p class="text-primary">В наличии</p>
+          </div>
+
+          <div class="car-card__image-wrapper">
+            <div class="car-card__content">
+              <div class="car-card__content__wrapper">
+                <h2 class="car-card__title">Haval Dargo X</h2>
+
+                <div
+                  class="car-card__test-drive-wrap"
+                  data-fancybox
+                  data-src="#popup-form"
+                >
+                  <button
+                    class="car-card__test-drive"
+                    type="button"
+                    aria-label="Записаться на тест-драйв"
+                  >
+                    <img src="/src/assets/icons/edit.svg" alt="" />
+                  </button>
+                  <span
+                    >Записаться <br />
+                    на тест-драйв</span
+                  >
+                </div>
+              </div>
+
+              <p class="car-card__benefit">
+                Выгода до <span class="car-card__price">320 000 ₽</span>
+              </p>
+            </div>
+
+            <div
+              class="car-card__image-swiper swiper"
+              data-bullets="grey,black,white,red"
+            >
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="/src/assets/image/dargo_x_grafit.png"
+                    alt="Haval Dargo X графит"
+                    width="355"
+                    height="192"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/src/assets/image/dargo_x_black.png"
+                    alt="Haval Dargo X черный"
+                    width="355"
+                    height="192"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/src/assets/image/dargo_x_agat.png"
+                    alt="Haval Dargo X белый"
+                    width="355"
+                    height="192"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="/src/assets/image/dargo_x_red.png"
+                    alt="Haval Dargo X красный"
+                    width="355"
+                    height="192"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="car-card__pagination swiper-pagination"></div>
+
+          <div class="car-card__features">
+            <div class="column">
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/sale.svg"
+                    alt=""
+                    width="18"
+                    height="18"
+                    loading="lazy"
+                  />
+                </div>
+                <p>Выгода по госпрограмме</p>
+              </div>
+
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/check.svg"
+                    alt=""
+                    width="13"
+                    height="15"
+                    loading="lazy"
+                  />
+                </div>
+                <p>КАСКО в подарок</p>
+              </div>
+
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/gift.svg"
+                    alt=""
+                    width="14"
+                    height="14"
+                    loading="lazy"
+                  />
+                </div>
+                <p>Доп. оборудование на 100 000₽</p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/money.svg"
+                    alt=""
+                    width="15"
+                    height="13"
+                    loading="lazy"
+                  />
+                </div>
+                <p>Максимальные выгоды по трейд-ин</p>
+              </div>
+
+              <div class="feature">
+                <div class="feature__icon">
+                  <img
+                    src="/src/assets/icons/tires.svg"
+                    alt=""
+                    width="18"
+                    height="18"
+                    loading="lazy"
+                  />
+                </div>
+                <p>Зимние шины в подарок</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="car-card__buttons">
+            <button
+              class="btn btn-price"
+              type="button"
+              data-fancybox
+              data-src="#popup-form"
+            >
+              узнать стоимость
+            </button>
+
+            <button
+              class="btn btn-credit"
+              type="button"
+              data-fancybox
+              data-src="#popup-form"
+            >
+              рассчитать кредит
+            </button>
+
+            <button
+              class="btn btn-config"
+              type="button"
+              data-fancybox
+              data-src="#popup-form"
+            >
+              подобрать комплектацию
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <button
+      class="floating-button"
+      type="button"
+      data-fancybox
+      data-src="#popup-form"
+    >
+      <img src="/src/assets/icons/question.svg" alt="Чат" />
+    </button>
+
+    <div style="display: none" id="popup-form">
+      <form class="popup-form">
+        <h2>Оставьте заявку</h2>
+        <p>Мы свяжемся с вами в ближайшее время</p>
+        <input
+          type="tel"
+          name="phone"
+          placeholder="+7 (___) ___-__-__"
+          required
+        />
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script type="module" src="./src/js/swiper.js"></script>
+    <script type="module" src="./src/js/popup.js"></script>
+  </body>
+</html>

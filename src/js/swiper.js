@@ -1,6 +1,3 @@
-import Swiper from 'swiper/bundle'
-import 'swiper/css/bundle'
-
 document.querySelectorAll('.car-card__image-swiper').forEach((swiperEl) => {
   const paginationEl = swiperEl
     .closest('.car-card')

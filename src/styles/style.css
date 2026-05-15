@@ -498,7 +498,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 480px;
+  max-width: 450px;
   min-height: 356px;
   min-width: 300px;
   overflow: hidden;

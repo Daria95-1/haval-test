@@ -738,16 +738,13 @@ a:hover {
   gap: 4px;
 }
 
-.swiper-pagination-fraction,
-.swiper-pagination-custom,
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal {
+.swiper-pagination {
   position: static !important;
-  top: auto !important;
-  bottom: auto !important;
-  left: auto !important;
-  width: auto !important;
-  margin: 12px 0 0 0;
+  text-align: unset;
+  transform: none !important;
+  transition: none !important;
+  z-index: auto;
+  margin-top: 10px;
 }
 
 .car-card__pagination .swiper-pagination-bullet {
@@ -757,18 +754,6 @@ a:hover {
   border: none;
   background-color: var(--color-car-grey);
   opacity: 1;
-}
-
-.car-card__pagination .swiper-pagination-bullet:nth-child(2) {
-  background-color: var(--color-car-black);
-}
-
-.car-card__pagination .swiper-pagination-bullet:nth-child(3) {
-  background-color: var(--color-car-white);
-}
-
-.car-card__pagination .swiper-pagination-bullet:nth-child(4) {
-  background-color: var(--color-car-red);
 }
 
 .car-card__pagination .swiper-pagination-bullet-active {
